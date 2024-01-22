@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "skipDefaultLibCheck": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noImplicitAny": true,
+    "target": "ES2022" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "forceConsistentCasingInFileNames": true /* Ensure that casing is correct in imports. */,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "module": "commonjs" /* Specify what module code is generated. */,
+    "strict": true /* Enable all strict type-checking options. */,
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "experimentalDecorators": true,
+    /* Skip type checking .d.ts files that are included with TypeScript. */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */
+  },
+  "include": ["./src/**/*.ts"]
+}
